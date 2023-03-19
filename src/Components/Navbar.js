@@ -36,10 +36,10 @@ const Navbar = () => {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+    // {
+    //   text: "Cart",
+    //   icon: <ShoppingCartRoundedIcon />,
+    // },
   ];
   return (
     <nav>
@@ -51,10 +51,10 @@ const Navbar = () => {
         <a href="">About</a>
         <a href="">Testimonials</a>
         <a href="">Contact</a>
-        <a href="">
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        </a> */}
+        <button className="primary-button">Sign Up Now</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

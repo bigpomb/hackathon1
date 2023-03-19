@@ -9,13 +9,13 @@ const Home = () => {
       <div className="home-banner-container">
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Find a doctor one click away
+            Find a doctor with one click away
           </h1>
           <p className="primary-text">
-            Check for the nearest available doctor in your area
+            We believe that finding the right doctor shouldn't be a chore
           </p>
           <button className="secondary-button">
-            Check <FiArrowRight />{" "}
+            Sign Up <FiArrowRight />{" "}
           </button>
         </div>
       </div>
