@@ -1,15 +1,20 @@
 import React from "react";
+import { FaUser, FaUserMd, FaGlobe } from "react-icons/fa";
+
 
 const Work = () => {
   const workInfoData = [
     {
-      text: "Connect yourself to the closest family doctor",
+      title: <FaUser />,
+      text: "Get registered quickly and easily as a newcomer",
     },
     {
-      text: "Search for clinic near you",
+      title: <FaUserMd />,
+      text: "Connect to a family doctor or clinic",
     },
     {
-      text: "Access with our community",
+      title: <FaGlobe />,
+      text: "Access our awesome community",
     },
   ];
   return (
@@ -28,7 +33,7 @@ const Work = () => {
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
-            <h2>{data.title}</h2>
+            <h2 className="feature-logo">{data.title}</h2>
             <p>{data.text}</p>
           </div>
         ))}

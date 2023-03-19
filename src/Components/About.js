@@ -11,7 +11,7 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Everyone need a family doctor
+          The easiest way to get fully registered in your area and be connected with a healthcare practitioner right away
         </h1>
         <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
